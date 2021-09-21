@@ -1,0 +1,6 @@
+CREATE TABLE "note" (
+	"name"	TEXT NOT NULL,
+	"alias"	TEXT,
+	"index"	INTEGER NOT NULL UNIQUE,
+	PRIMARY KEY("name")
+) WITHOUT ROWID;
